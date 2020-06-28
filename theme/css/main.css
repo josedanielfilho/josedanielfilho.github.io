@@ -352,7 +352,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	/* Blogroll */
 	#extras .blogroll {
 		float: left;
-		width: 615px;
+		width: 200px;
 	}
 	
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
