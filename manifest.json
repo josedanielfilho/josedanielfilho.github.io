@@ -4,7 +4,7 @@
   "description": "Site de educação que prover conteudos relaciodandos a informática e a computação",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "_static/icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
