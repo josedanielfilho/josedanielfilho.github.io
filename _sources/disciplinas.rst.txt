@@ -1,0 +1,39 @@
+Disciplinas
+==================================
+
+.. image:: _static/img/python.webp
+   :height: 300px
+   :width: 300 px
+   :alt: Python
+   :align: left
+   :target: python.html
+   
+.. image:: _static/img/poo.webp
+   :height: 300px
+   :width: 300 px
+   :alt: Python Orientado a Objetos
+   :align: left   
+   :target: poo/index.html
+   
+.. image:: _static/img/so.webp
+   :height: 300px
+   :width: 300 px
+   :alt: Sistemas Operacionais
+   :align: left
+   :target: so/index.html
+   
+.. image:: _static/img/arquitetura.webp
+   :height: 300px
+   :width: 300 px
+   :alt: Arquitetura de Computadores
+   :align: left
+   :target: arquitetura/index.html
+   
+.. image:: _static/img/informatica.webp
+   :height: 300px
+   :width: 300 px
+   :alt: Informática
+   :align: left  
+   :target: informatica/index.html
+   
+   
