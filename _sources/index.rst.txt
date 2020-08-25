@@ -8,14 +8,21 @@ Professor José Daniel
 Oi mundo2!
 
 .. toctree::
-   :numbered:
-   :maxdepth: 2
-   :caption: Contents:
+   :titlesonly:
+   :maxdepth: 3
+   :caption: Conteúdos:
 
    disciplinas 
    intro
    contato
    
+.. toctree::
+   :hidden:
+   :caption: Cursos/Disciplinas
+
+   arquitetura/Index
+   python/Index
+
 Indices and tables
 ==================
 
