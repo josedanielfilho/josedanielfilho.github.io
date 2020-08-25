@@ -5,7 +5,9 @@
 
 Professor José Daniel
 ==================================
-Oi mundo2!
+Possuo experiência na área da ciência da computação, como programador, analista de sistemas, analista de dados, professor e pesquisador. 
+Já trabalhei no setor público e privado seja como educador ou colocando a mão na massa como desenvolvedor e analista. 
+Criei esse site para explicar conteúdos referentes a programação, jogos e eletrônica para jovens e entusiastas.
 
 .. toctree::
    :titlesonly:
