@@ -19,15 +19,19 @@ Criei esse site para explicar conteúdos referentes a programação, jogos e ele
    contato
    
 .. toctree::
-   :hidden:
+   :titlesonly:
    :caption: Cursos/Disciplinas
 
-   arquitetura/Index
-   python/Index
-
+   
+   python/index
+   arquitetura/index
+   so/index
+   informatica/index
+   
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
+
+.. * :ref:`modindex`
  

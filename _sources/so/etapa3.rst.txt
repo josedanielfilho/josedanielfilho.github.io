@@ -1,0 +1,15 @@
+
+Arquiteturas de Sistemas Operacionais
+===================================================
+
+Sistemas monolíticos, em camadas e micronúcleo
+---------------------------------------------------
+
+Máquinas virtuais
+---------------------------------------------------
+
+Kernel
+---------------------------------------------------
+
+Sistemas monotarefa, multitarefa e tempo compartilhado
+---------------------------------------------------------

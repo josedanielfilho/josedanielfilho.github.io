@@ -1,0 +1,14 @@
+Sistemas Operacionais
+===================================================
+
+Área de trabalho, botão iniciar, janelas, acessórios
+-----------------------------------------------------
+
+Conceito de arquivo, pastas e sistema de arquivos
+---------------------------------------------------
+
+Navegador de Arquivos
+---------------------------------------------------
+
+Partições e Instalação de Sistemas Operacionais
+---------------------------------------------------

@@ -3,9 +3,14 @@ Arquitetura de Computadores
 ==================================
 
 .. toctree::
-   :titlesonly:
+   :numbered:
 
-   introducao
-   parte1
-   parte2
+   etapa1
+   etapa2
+   etapa3
+   etapa4
+   etapa5
+   etapa6
+   etapa7
+   etapa8
 

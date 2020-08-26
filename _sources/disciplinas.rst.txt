@@ -7,7 +7,7 @@ Disciplinas
    :width: 300 px
    :alt: Python
    :align: left
-   :target: python.html
+   :target: arquitetura/index.html
    
 .. image:: _static/img/poo.webp
    :height: 300px
