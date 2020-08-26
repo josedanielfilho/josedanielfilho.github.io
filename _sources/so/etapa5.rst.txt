@@ -1,3 +1,4 @@
+.. include:: ../Includes.txt
 
 Gerenciamento de memória 
 ==================================

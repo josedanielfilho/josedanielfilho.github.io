@@ -1,5 +1,28 @@
+.. include:: ../Includes.txt
 
 O Processador: organização e arquitetura 
 ==================================
 
-asdasd
+Organização do processador
+-------------------------------------------
+
+Unidade funcional de processamento
+-------------------------------------------
+
+Unidade funcional de controle
+-------------------------------------------
+
+Instruções de máquina
+-------------------------------------------
+
+Arquiteturas RISC e CISC
+-------------------------------------------
+
+Interrupção
+-------------------------------------------
+
+Pipeline
+-------------------------------------------
+
+Clock
+-------------------------------------------

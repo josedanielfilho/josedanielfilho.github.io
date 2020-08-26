@@ -1,3 +1,4 @@
+.. include:: ../Includes.txt
 
 Evolução da arquitetura de computadores
 ===================================================
