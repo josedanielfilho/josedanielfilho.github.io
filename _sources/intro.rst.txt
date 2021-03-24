@@ -2,9 +2,8 @@
 
 Manual do Aluno
 ==================================
-
-Regras de Comportamento
-
+Regras de Comportamento:
+---------------------------
 * Mantenha-se sentado
 * Respeite seus colegas
 * Não use aparelhos eletrônicos sem a permissão do professor.
@@ -14,7 +13,9 @@ Regras de Comportamento
 * Os alunos devem está devidamente trajados, consulte as regras do IFMA Pinheiro
 * Tenha sempre caderno, lápis, borracha e caneta PRETA
 
-SUAP
+
+SUAP:
+-----------------
 * Decore a matricula e senha do SUAP
 * Crie seu e-mail institucional/acadêmico você tem vantagens ao usa-ló
 * Você pode acessar os matérias de aula no SUAP
@@ -26,13 +27,17 @@ SUAP
 * As chamadas serão feitas direto no sistema
 * Fique atento as faltas
 
-Dúvidas
+ 
+Dúvidas:
+-----------------
 * Faça perguntas ao professor desde que tenham relação com o tema da aula
 * Os alunos que interagem positivamente com o professor e a turma durante a aula serão bonificados 
 * As dúvidas sobre tópicos referentes as aulas podem ser tiradas com o professor fora de sala de aula
 * Caso o professor esteja ocupado no momento entre em contato por meios digitais: e-mail; redes sociais
 
-Avaliações Presenciais
+
+Avaliações Presenciais:
+---------------------------
 * Será atribuído nota zero ao aluno que estiver colando
 * Chegue cedo nos dias de avaliação
 * Decore sua matricula
@@ -40,14 +45,16 @@ Avaliações Presenciais
 * Leia atentamente o enunciado das questões
 
 
-Entrada e saída de alunos
+Entrada e saída de alunos:
+---------------------------
 * Existe tolerância de 10 minutos para entrar em sala, salvo exceções
 * Aproveite a tolerância de 10 minutos para ir ao banheiro e beber água
 * Não pode sair de sala sem autorização do professor
 * Evite sair de sala para beber água e ir ao banheiro
 
 
-Cuidados com a sala
+Cuidados com a sala:
+---------------------------
 * As cadeiras devem ser mantidas em ordem, fila
 * Deixe a sala organizada.
 * Não danifique cadeiras ou qualquer item presente na sala.

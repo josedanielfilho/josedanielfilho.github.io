@@ -1,0 +1,1495 @@
+
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>execution: timeout: -1 &#8212; documentação José Daniel </title>
+    
+  <link rel="stylesheet" href="../../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/translations.js"></script>
+    <script src="../../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <link rel="shortcut icon" href="../../../_static/icon.png"/>
+    <link rel="index" title="Índice" href="../../../genindex.html" />
+    <link rel="search" title="Buscar" href="../../../search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">documentação José Daniel </h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Pesquise os documentos ..." aria-label="Pesquise os documentos ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Conteúdos:
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../disciplinas.html">
+   Disciplinas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../intro.html">
+   Manual do Aluno
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../contato.html">
+   Contato
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Cursos/Disciplinas
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../python/index.html">
+   Python
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../python/introducao.html">
+     Arquitetura de Computadores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../python/parte1.html">
+     Welcome to Python’s documentation!
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../python/parte2.html">
+     Parte2
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../arquitetura/index.html">
+   Arquitetura de Computadores
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa1.html">
+     1. Evolução da arquitetura de computadores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa2.html">
+     2. Sistemas de numeração
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa3.html">
+     3. Representação de dados
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa4.html">
+     4. Componentes de Hardware
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa5.html">
+     5. O Processador: organização e arquitetura
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa6.html">
+     6. Subsistema de memória
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa7.html">
+     7. Barramentos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../arquitetura/etapa8.html">
+     8. Projeto
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../so/index.html">
+   Sistemas Operacionais
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa1.html">
+     1. Introdução a Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa2.html">
+     2. Windows
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa3.html">
+     3. Arquiteturas de Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa4.html">
+     4. Processos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa5.html">
+     5. Gerenciamento de memória
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa6.html">
+     6. Gerencimento de Arquivos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa7.html">
+     7. Linux
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../so/etapa8.html">
+     8. Projeto
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../informatica/index.html">
+   Informática
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa1.html">
+     1. Definição de informática
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa2.html">
+     2. Hardware
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa3.html">
+     3. Software
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa4.html">
+     4. Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa5.html">
+     5. Internet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa6.html">
+     6. Processador de texto
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa7.html">
+     7. Planilha eletrônica
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../informatica/etapa8.html">
+     8. Apresentação
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Alternar de navegação" aria-controls="site-navigation"
+                title="Alternar de navegação" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Baixe esta página"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../_sources/sphinx_book_theme/docs/reference/markdown_limits.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Baixar arquivo fonte" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimir em PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Modo tela cheia"
+                    title="Modo tela cheia"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Conteúdo
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   execution:
+timeout: -1
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#layout-and-demo-and-reference">
+   Layout and demo and reference
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#glossary">
+     Glossary
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interactive-code">
+     Interactive code
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hiding-elements">
+     Hiding elements
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hiding-inputs">
+       Hiding inputs
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hiding-outputs">
+       Hiding outputs
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hiding-markdown">
+       Hiding markdown
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hiding-both-inputs-and-outputs">
+       Hiding both inputs and outputs
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hiding-the-whole-cell">
+       Hiding the whole cell
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#full-width-elements">
+     Full-width elements
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#full-width-code-cells">
+       Full width code cells
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#full-width-markdown">
+       Full-width markdown
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#mathematics">
+       Mathematics
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#margins">
+       Margins
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#margin-under-lower-level-shouldn-t-have-different-left-alignment">
+         Margin under lower level shouldn’t have different left-alignment
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#toggle-buttons">
+       Toggle buttons
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#full-width-content">
+       Full-width content
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#more-content-after-the-popouts">
+       More content after the popouts
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-limits">
+     Markdown limits
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#common-publishing-items">
+       Common publishing items
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#really-wide-content">
+       Really wide content
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#pre-blocks">
+         Pre blocks
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#wide-images">
+         Wide images
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#testing-code-in-headers">
+       Testing
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         code
+        </span>
+        <span class="pre">
+         in
+        </span>
+        <span class="pre">
+         headers
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#testing-unicode-headers">
+       Testing Unicode headers
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id1">
+         Це тестовий заголовок Кирилицею
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id2">
+         これは日本語のテストヘッダーです
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id3">
+         هذا اختبار للرأس باللغة العربية
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id4">
+         這是中文標題測試
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#markdown-cheatsheet">
+       Markdown Cheatsheet
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#emphasis">
+         Emphasis
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#lists">
+         Lists
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#links">
+         Links
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#images">
+         Images
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#code-and-syntax-highlighting">
+         Code and Syntax Highlighting
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#tables">
+         Tables
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#blockquotes">
+         Blockquotes
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#inline-html">
+         Inline HTML
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#horizontal-rule">
+         Horizontal Rule
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#line-breaks">
+         Line Breaks
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#youtube-videos">
+         YouTube Videos
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#tex-mathematical-formulae">
+         TeX Mathematical Formulae
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#build-the-book-s-html-locally">
+         Build the book’s HTML locally
+        </a>
+        <ul class="nav section-nav flex-column">
+         <li class="toc-h5 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#building-your-site-locally-with-containers-docker">
+           Building your site locally with Containers: Docker
+          </a>
+         </li>
+         <li class="toc-h5 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#building-your-site-locally-with-containers-singularity">
+           Building your site locally with Containers: Singularity
+          </a>
+         </li>
+         <li class="toc-h5 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#building-your-site-locally-with-ruby">
+           Building your site locally with Ruby
+          </a>
+         </li>
+         <li class="toc-h5 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#when-should-you-build-the-html-locally">
+           When should you build the HTML locally?
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#create-an-online-repository-for-your-book">
+         Create an
+         <em>
+          online
+         </em>
+         repository for your book
+        </a>
+       </li>
+       <li class="toc-h4 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#publish-your-book-online-with-github-pages">
+         Publish your book online with GitHub Pages
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <hr class="docutils" />
+<p>jupytext:
+text_representation:
+extension: .md
+format_name: myst
+format_version: ‘0.8’
+jupytext_version: 1.4.1+dev
+kernelspec:
+display_name: Python 3
+language: python
+name: python3</p>
+<div class="section" id="execution-timeout-1">
+<h1>execution:
+timeout: -1<a class="headerlink" href="#execution-timeout-1" title="Link permanente para este título">¶</a></h1>
+</div>
+<div class="section" id="layout-and-demo-and-reference">
+<h1>Layout and demo and reference<a class="headerlink" href="#layout-and-demo-and-reference" title="Link permanente para este título">¶</a></h1>
+<p>This page contains a number of reference elements to see how they look in this
+theme. The information is not meant to be easy to read or understand, just browse
+through and see how things look!</p>
+<div class="section" id="glossary">
+<h2>Glossary<a class="headerlink" href="#glossary" title="Link permanente para este título">¶</a></h2>
+<div class="highlight-{glossary} notranslate"><div class="highlight"><pre><span></span>term one
+  An indented explanation of term 1
+
+A second term
+  An indented explanation of term2
+</pre></div>
+</div>
+<p>To reference terms in your glossary, use the <code class="docutils literal notranslate"><span class="pre">{term}</span></code> role. For example,
+<code class="docutils literal notranslate"><span class="pre">{term}`term</span> <span class="pre">one`</span></code> becomes {term}<code class="docutils literal notranslate"><span class="pre">term</span> <span class="pre">one</span></code>. And <code class="docutils literal notranslate"><span class="pre">{term}`A</span> <span class="pre">second</span> <span class="pre">term`</span></code>
+becomes {term}<code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">second</span> <span class="pre">term</span></code>.</p>
+</div>
+<div class="section" id="interactive-code">
+<h2>Interactive code<a class="headerlink" href="#interactive-code" title="Link permanente para este título">¶</a></h2>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>import plotly.io as pio
+import plotly.express as px
+import plotly.offline as py
+
+pio.renderers.default = &quot;notebook&quot;
+
+df = px.data.iris()
+fig = px.scatter(df, x=&quot;sepal_width&quot;, y=&quot;sepal_length&quot;, color=&quot;species&quot;, size=&quot;sepal_length&quot;)
+fig
+</pre></div>
+</div>
+<p>+++</p>
+</div>
+<div class="section" id="hiding-elements">
+<h2>Hiding elements<a class="headerlink" href="#hiding-elements" title="Link permanente para este título">¶</a></h2>
+<div class="section" id="hiding-inputs">
+<h3>Hiding inputs<a class="headerlink" href="#hiding-inputs" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [remove_cell]
+
+# Generate some code that we&#39;ll use later on in the page
+import numpy as np
+import matplotlib.pyplot as plt
+
+square = np.random.randn(100, 100)
+wide = np.random.randn(100, 1000)
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide_input]
+
+# Hide input
+square = np.random.randn(100, 100)
+wide = np.random.randn(100, 1000)
+
+fig, ax = plt.subplots()
+ax.imshow(square)
+
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+</div>
+<div class="section" id="hiding-outputs">
+<h3>Hiding outputs<a class="headerlink" href="#hiding-outputs" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide_output]
+
+# Hide input
+square = np.random.randn(100, 100)
+wide = np.random.randn(100, 1000)
+
+fig, ax = plt.subplots()
+ax.imshow(square)
+
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+</div>
+<div class="section" id="hiding-markdown">
+<h3>Hiding markdown<a class="headerlink" href="#hiding-markdown" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{toggle} notranslate"><div class="highlight"><pre><span></span>```{note}
+This is a hidden markdown cell
+
+It should be hidden!
+```
+</pre></div>
+</div>
+<div class="highlight-{admonition} And here's a toggleable note notranslate"><div class="highlight"><pre><span></span>:class: dropdown
+With a body!
+</pre></div>
+</div>
+<p>+++</p>
+</div>
+<div class="section" id="hiding-both-inputs-and-outputs">
+<h3>Hiding both inputs and outputs<a class="headerlink" href="#hiding-both-inputs-and-outputs" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide_output, hide_input]
+
+square = np.random.randn(100, 100)
+wide = np.random.randn(100, 1000)
+
+fig, ax = plt.subplots()
+ax.imshow(square)
+
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+</div>
+<div class="section" id="hiding-the-whole-cell">
+<h3>Hiding the whole cell<a class="headerlink" href="#hiding-the-whole-cell" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide_cell]
+
+square = np.random.randn(100, 100)
+wide = np.random.randn(100, 1000)
+
+fig, ax = plt.subplots()
+ax.imshow(square)
+
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="full-width-elements">
+<h2>Full-width elements<a class="headerlink" href="#full-width-elements" title="Link permanente para este título">¶</a></h2>
+<div class="section" id="full-width-code-cells">
+<h3>Full width code cells<a class="headerlink" href="#full-width-code-cells" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [full_width]
+
+## A full-width square figure
+fig, ax = plt.subplots()
+ax.imshow(square)
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [full_width]
+
+## A full-width wide figure
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span># Now here&#39;s the same figure at regular width
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+<p>+++ {“tags”: [“full_width”]}</p>
+</div>
+<div class="section" id="full-width-markdown">
+<h3>Full-width markdown<a class="headerlink" href="#full-width-markdown" title="Link permanente para este título">¶</a></h3>
+<p>This is some markdown that should be shown at full width.</p>
+<p>Here’s the Jupyter logo:</p>
+<p><img alt="https://raw.githubusercontent.com/adebar/awesome-jupyter/master/logo.png" src="https://raw.githubusercontent.com/adebar/awesome-jupyter/master/logo.png" /></p>
+<p>+++</p>
+</div>
+<div class="section" id="mathematics">
+<h3>Mathematics<a class="headerlink" href="#mathematics" title="Link permanente para este título">¶</a></h3>
+<p>\begin{equation}
+\int_0^\infty \frac{x^3}{e^x-1},dx = \frac{\pi^4}{15}
+\end{equation}</p>
+<p>$$
+\int_0^\infty \frac{x^3}{e^x-1},dx = \frac{\pi^4}{15}
+$$</p>
+<div class="highlight-{math} notranslate"><div class="highlight"><pre><span></span>:label: my_label
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+</pre></div>
+</div>
+<p>Link to above: {eq}<code class="docutils literal notranslate"><span class="pre">my_label</span></code></p>
+<div class="highlight-{math} notranslate"><div class="highlight"><pre><span></span>:label: my_label2
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1} \\
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1} \\
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+</pre></div>
+</div>
+<p>Link to above: {eq}<code class="docutils literal notranslate"><span class="pre">my_label2</span></code></p>
+<ul class="simple">
+<li><p>$$
+\mathcal{O}(f) = { g |
+\exists c &gt; 0,
+\exists n_0 \in \mathbb{N}_0,
+\forall n \geq n_0
+:
+[g(n) \leq c \cdot f(n)]}$$</p></li>
+</ul>
+<p>A really long math equation</p>
+<p>$$
+\begin{align}
+\mathrm{SetConv} \left( {(x^{c},y^{c})}<em>{c=1}^{C} \right)(x) \left( {(x^{c},y^{c})}</em>{c=1}^{C} \right)(x) \left( {(x^{c},y^{c})}<em>{c=1}^{C} \right)(x)
+&amp;= \sum</em>{c=1}^{C} y^{(c)} w_{\theta} \left( x - x^{(c)} \right)  \sum_{c=1}^{C} y^{(c)} w_{\theta} \left( x - x^{(c)} \right) \sum_{c=1}^{C} y^{(c)} w_{\theta} \left( x - x^{(c)} \right)\
+&amp;= \left( y^{(c’)} w_{\theta} \left( x - x^{(c’)} \right) \right) + \sum_{c \neq c’}  y^{(c)} w_{\theta} \left( x - x^{(c)} \right) \
+&amp;= 0 + \sum_{c \neq c’}  y^{(c)} w_{\theta} \left( x - x^{(c)} \right)
+\end{align}
+$$</p>
+<p>Full width equations work</p>
+<div class="highlight-{math} notranslate"><div class="highlight"><pre><span></span>:class: full-width
+
+\begin{align}
+\mathrm{SetConv} \left( \{(x^{c},y^{c})\}_{c=1}^{C} \right)(x) \left( \{(x^{c},y^{c})\}_{c=1}^{C} \right)(x) \left( \{(x^{c},y^{c})\}_{c=1}^{C} \right)(x)
+&amp;= \sum_{c=1}^{C} y^{(c)} w_{\theta} \left( x - x^{(c)} \right)  \sum_{c=1}^{C} y^{(c)} w_{\theta} \left( x - x^{(c)} \right) \sum_{c=1}^{C} y^{(c)} w_{\theta} \left( x - x^{(c)} \right)\\
+&amp;= \left( y^{(c&#39;)} w_{\theta} \left( x - x^{(c&#39;)} \right) \right) + \sum_{c \neq c&#39;}  y^{(c)} w_{\theta} \left( x - x^{(c)} \right) \\
+&amp;= 0 + \sum_{c \neq c&#39;}  y^{(c)} w_{\theta} \left( x - x^{(c)} \right)
+\end{align}
+</pre></div>
+</div>
+<p>+++</p>
+</div>
+<div class="section" id="margins">
+<h3>Margins<a class="headerlink" href="#margins" title="Link permanente para este título">¶</a></h3>
+<p>+++</p>
+<p>Margin content can include all kinds of things, such as code blocks:</p>
+<div class="highlight-{margin} Code blocks in margins notranslate"><div class="highlight"><pre><span></span>```python
+print(&quot;here is some python&quot;)
+```
+</pre></div>
+</div>
+<p>as well as admonitions and images:</p>
+<div class="highlight-{margin} **Notes in margins** notranslate"><div class="highlight"><pre><span></span>```{note}
+Wow, a note with an image in a margin!
+![](../images/cool.jpg)
+```
+</pre></div>
+</div>
+<div class="section" id="margin-under-lower-level-shouldn-t-have-different-left-alignment">
+<h4>Margin under lower level shouldn’t have different left-alignment<a class="headerlink" href="#margin-under-lower-level-shouldn-t-have-different-left-alignment" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-{margin} **Notes in margins** notranslate"><div class="highlight"><pre><span></span>```{note}
+Wow, a note with an image in a margin!
+![](../images/cool.jpg)
+```
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="toggle-buttons">
+<h3>Toggle buttons<a class="headerlink" href="#toggle-buttons" title="Link permanente para este título">¶</a></h3>
+<p>Here’s some margin content, let’s see how it interacts w/ the toggle button</p>
+<div class="highlight-{margin} My margin notranslate"><div class="highlight"><pre><span></span>Here&#39;s my margin content
+</pre></div>
+</div>
+<p>Here’s a toggleable note:</p>
+<div class="highlight-{note} notranslate"><div class="highlight"><pre><span></span>:class: toggle
+My note
+</pre></div>
+</div>
+</div>
+<div class="section" id="full-width-content">
+<h3>Full-width content<a class="headerlink" href="#full-width-content" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{note} notranslate"><div class="highlight"><pre><span></span>:class: tag_fullwidth
+This is my test
+</pre></div>
+</div>
+<p>Let’s see what happens</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [popout]
+
+## code cell in the margin with output
+fig, ax = plt.subplots()
+ax.imshow(wide)
+</pre></div>
+</div>
+<p>+++ {“tags”: [“popout”]}</p>
+<p>Markdown cell with code in margin</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="k">def</span> <span class="nf">aplusb</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span>
+</pre></div>
+</div>
+<p>and now r</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">&lt;-</span> <span class="m">2</span>
+<span class="n">b</span> <span class="o">&lt;-</span> <span class="m">4</span>
+<span class="n">a</span><span class="o">+</span><span class="n">b</span>
+</pre></div>
+</div>
+<p>how does it look?</p>
+<p>Markdown cell with images in sidebar</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/883px-Jupyter_logo.svg.png" style="max-width:200px" /><p>+++</p>
+</div>
+<div class="section" id="more-content-after-the-popouts">
+<h3>More content after the popouts<a class="headerlink" href="#more-content-after-the-popouts" title="Link permanente para este título">¶</a></h3>
+<p>This is extra content after the popouts to see if cells overlap and such.
+Also to make sure you can still interact with the popout content.
+This is extra content after the popouts to see if cells overlap and such.
+Also to make sure you can still interact with the popout content.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>This is extra content after the popouts to see if cells overlap and such.
+Also to make sure you can still interact with the popout content.
+This is extra content after the popouts to see if cells overlap and such.
+Also to make sure you can still interact with the popout content.
+This is extra content after the popouts to see if cells overlap and such.
+Also to make sure you can still interact with the popout content.</p>
+<p>+++</p>
+</div>
+</div>
+<div class="section" id="markdown-limits">
+<h2>Markdown limits<a class="headerlink" href="#markdown-limits" title="Link permanente para este título">¶</a></h2>
+<p>The remaining part of this page has been taken from the Markdown
+documentation, and is meant to give an idea of how Jupyter Book renders really long pages of
+very diverse content!</p>
+<div class="section" id="common-publishing-items">
+<h3>Common publishing items<a class="headerlink" href="#common-publishing-items" title="Link permanente para este título">¶</a></h3>
+<div class="highlight-{figure} ../images/cool.jpg notranslate"><div class="highlight"><pre><span></span>---
+width: 200px
+alt: My figure text
+name: myfig
+---
+And here is my figure caption
+</pre></div>
+</div>
+<p>We can reference the figure with {ref}<code class="docutils literal notranslate"><span class="pre">myfig</span></code>. Or a numbered reference like
+{numref}<code class="docutils literal notranslate"><span class="pre">myfig</span></code>.</p>
+<div class="highlight-{figure} ../images/cool.jpg notranslate"><div class="highlight"><pre><span></span>---
+width: 200px
+align: left
+alt: My figure text
+name: myfig2
+---
+And here is my figure caption
+</pre></div>
+</div>
+<p>We can reference the figure with {ref}<code class="docutils literal notranslate"><span class="pre">myfig2</span></code>. Or a numbered reference like
+{numref}<code class="docutils literal notranslate"><span class="pre">myfig2</span></code>.</p>
+<div class="highlight-{figure} ../images/cool.jpg notranslate"><div class="highlight"><pre><span></span>---
+width: 60%
+align: right
+alt: My figure text
+name: myfig3
+---
+And here is my figure caption
+</pre></div>
+</div>
+<p>We can reference the figure with {ref}<code class="docutils literal notranslate"><span class="pre">myfig3</span></code>. Or a numbered reference like
+{numref}<code class="docutils literal notranslate"><span class="pre">myfig3</span></code>.</p>
+</div>
+<div class="section" id="really-wide-content">
+<h3>Really wide content<a class="headerlink" href="#really-wide-content" title="Link permanente para este título">¶</a></h3>
+<p>Here’s how really wide content alters the page:</p>
+<div class="section" id="pre-blocks">
+<h4>Pre blocks<a class="headerlink" href="#pre-blocks" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="wide-images">
+<h4>Wide images<a class="headerlink" href="#wide-images" title="Link permanente para este título">¶</a></h4>
+<img src="https://jupyter.org/assets/nav_logo.svg" style="width: 1000px" /></div>
+</div>
+<div class="section" id="testing-code-in-headers">
+<h3>Testing <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">in</span> <span class="pre">headers</span></code><a class="headerlink" href="#testing-code-in-headers" title="Link permanente para este título">¶</a></h3>
+<p>The above should be roughly the same size…</p>
+</div>
+<div class="section" id="testing-unicode-headers">
+<h3>Testing Unicode headers<a class="headerlink" href="#testing-unicode-headers" title="Link permanente para este título">¶</a></h3>
+<p>The following headers test that we are able to render non-American characters
+in ways that look nice.</p>
+<div class="section" id="id1">
+<h4>Це тестовий заголовок Кирилицею<a class="headerlink" href="#id1" title="Link permanente para este título">¶</a></h4>
+<p>Lorem ipsum</p>
+</div>
+<div class="section" id="id2">
+<h4>これは日本語のテストヘッダーです<a class="headerlink" href="#id2" title="Link permanente para este título">¶</a></h4>
+<p>Lorem ipsum</p>
+</div>
+<div class="section" id="id3">
+<h4>هذا اختبار للرأس باللغة العربية<a class="headerlink" href="#id3" title="Link permanente para este título">¶</a></h4>
+<p>Lorem ipsum</p>
+</div>
+<div class="section" id="id4">
+<h4>這是中文標題測試<a class="headerlink" href="#id4" title="Link permanente para este título">¶</a></h4>
+</div>
+</div>
+<div class="section" id="markdown-cheatsheet">
+<h3>Markdown Cheatsheet<a class="headerlink" href="#markdown-cheatsheet" title="Link permanente para este título">¶</a></h3>
+<p>This is intended as a quick reference and showcase. For more complete info, see <a class="reference external" href="http://daringfireball.net/projects/markdown/">John Gruber’s original spec</a> and the <a class="reference external" href="http://github.github.com/github-flavored-markdown/">Github-flavored Markdown info page</a>.</p>
+<p>This cheatsheet is specifically <em>Markdown Here’s</em> version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a <em>Markdown Here</em> email, but it should be pretty close.</p>
+<p>You can play around with Markdown on our <a class="reference external" href="http://www.markdown-here.com/livedemo.html">live demo page</a>.</p>
+<a name="emphasis"/><div class="section" id="emphasis">
+<h4>Emphasis<a class="headerlink" href="#emphasis" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+</pre></div>
+</div>
+<p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+<p>Strikethrough uses two tildes. ~~Scratch this.~~</p>
+<a name="lists"/></div>
+<div class="section" id="lists">
+<h4>Lists<a class="headerlink" href="#lists" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="m">1</span>. First ordered list item
+<span class="m">2</span>. Another item
+  * Unordered sub-list.
+<span class="m">1</span>. Actual numbers don<span class="s1">&#39;t matter, just that it&#39;</span>s a number
+  <span class="m">1</span>. Ordered sub-list
+<span class="m">4</span>. And another item.
+
+   Some text that should be aligned with the above item.
+
+* Nested unordered list
+  * Unordered sub-list
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+</pre></div>
+</div>
+<ol class="simple">
+<li><p>First ordered list item</p></li>
+<li><p>Another item</p></li>
+</ol>
+<ul class="simple">
+<li><p>Unordered sub-list.</p></li>
+</ul>
+<ol>
+<li><p>Actual numbers don’t matter, just that it’s a number</p></li>
+<li><p>Ordered sub-list</p></li>
+<li><p>And another item.</p>
+<p>Some text that should be aligned with the above item.</p>
+</li>
+</ol>
+<ul class="simple">
+<li><p>Nested unordered list</p>
+<ul>
+<li><p>Unordered sub-list</p></li>
+</ul>
+</li>
+<li><p>Unordered list can use asterisks</p></li>
+</ul>
+<ul class="simple">
+<li><p>Or minuses</p></li>
+</ul>
+<ul class="simple">
+<li><p>Or pluses</p></li>
+</ul>
+<a name="links"/></div>
+<div class="section" id="links">
+<h4>Links<a class="headerlink" href="#links" title="Link permanente para este título">¶</a></h4>
+<p>There are two ways to create links.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="o">[</span>I<span class="s1">&#39;m an inline-style link](https://www.google.com)</span>
+
+<span class="s1">[I&#39;</span>m a reference-style link<span class="o">][</span>Arbitrary <span class="k">case</span>-insensitive reference text<span class="o">]</span>
+
+<span class="o">[</span>You can use numbers <span class="k">for</span> reference-style link definitions<span class="o">][</span><span class="m">1</span><span class="o">]</span>
+
+Or leave it empty and use the <span class="o">[</span>link text itself<span class="o">]</span>
+
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or &lt;http://www.example.com&gt; and sometimes
+example.com <span class="o">(</span>but not on Github, <span class="k">for</span> example<span class="o">)</span>.
+
+Some text to show that the reference links can follow later.
+
+<span class="o">[</span>arbitrary <span class="k">case</span>-insensitive reference text<span class="o">]</span>: https://www.mozilla.org
+<span class="o">[</span><span class="m">1</span><span class="o">]</span>: http://slashdot.org
+<span class="o">[</span>link text itself<span class="o">]</span>: http://www.reddit.com
+</pre></div>
+</div>
+<p><a class="reference external" href="https://www.google.com">I’m an inline-style link</a></p>
+<p><a class="reference external" href="https://www.mozilla.org">I’m a reference-style link</a></p>
+<p><a class="reference external" href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+<p>Or leave it empty and use the <a class="reference external" href="http://www.reddit.com">link text itself</a></p>
+<p>URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or <a class="reference external" href="http://www.example.com">http://www.example.com</a> and sometimes
+example.com (but not on Github, for example).</p>
+<p>Some text to show that the reference links can follow later.</p>
+<a name="images"/></div>
+<div class="section" id="images">
+<h4>Images<a class="headerlink" href="#images" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>Here&#39;s our logo (hover to see the title text):
+
+Inline-style:
+![<span class="nt">alt text</span>](<span class="na">https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png &quot;Logo Title Text 1&quot;</span>)
+
+Reference-style:
+![alt text][logo]
+
+[<span class="nl">logo</span>]: <span class="na">https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png &quot;Logo Title Text 2&quot;</span>
+</pre></div>
+</div>
+<p>Here’s our logo (hover to see the title text):</p>
+<p>Inline-style:
+<img alt="alt text" src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" /></p>
+<p>Reference-style:
+<img alt="alt text" src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" /></p>
+<a name="code"/></div>
+<div class="section" id="code-and-syntax-highlighting">
+<h4>Code and Syntax Highlighting<a class="headerlink" href="#code-and-syntax-highlighting" title="Link permanente para este título">¶</a></h4>
+<p>Code blocks are part of the Markdown spec, but syntax highlighting isn’t. However, many renderers – like Github’s and <em>Markdown Here</em> – support syntax highlighting. <em>Markdown Here</em> supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the <a class="reference external" href="http://softwaremaniacs.org/media/soft/highlight/test.html">highlight.js demo page</a>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Inline <span class="sb">`</span>code<span class="sb">`</span> has <span class="sb">`</span>back-ticks around<span class="sb">`</span> it.
+</pre></div>
+</div>
+<p>Inline <code class="docutils literal notranslate"><span class="pre">code</span></code> has <code class="docutils literal notranslate"><span class="pre">back-ticks</span> <span class="pre">around</span></code> it.</p>
+<p>Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks – they’re easier and only they support syntax highlighting.</p>
+<pre lang="no-highlight"><code>```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```bash
+No language indicated, so no syntax highlighting.
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+```
+</code></pre><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="s2">&quot;JavaScript syntax highlighting&quot;</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;Python syntax highlighting&quot;</span>
+<span class="nb">print</span> <span class="n">s</span>
+</pre></div>
+</div>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
+But let&#39;s throw in a &lt;b&gt;tag&lt;/b&gt;.
+</pre></div>
+</div>
+<p>Again, to see what languages are available for highlighting, and how to write those language names, see the <a class="reference external" href="http://softwaremaniacs.org/media/soft/highlight/test.html">highlight.js demo page</a>.</p>
+<a name="tables"/></div>
+<div class="section" id="tables">
+<h4>Tables<a class="headerlink" href="#tables" title="Link permanente para este título">¶</a></h4>
+<p>Tables aren’t part of the core Markdown spec, but they are part of GFM and <em>Markdown Here</em> supports them. They are an easy way of adding tables to your email – a task that would otherwise require copy-pasting from another application.</p>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+The outer pipes (|) are optional, and you don&#39;t need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+<span class="ge">*Still*</span> | <span class="sb">`renders`</span> | <span class="gs">**nicely**</span>
+1 | 2 | 3
+</pre></div>
+</div>
+<p>Colons can be used to align columns.</p>
+<p>| Tables        | Are           | Cool |
+| ————- |:————-:| —–:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |</p>
+<p>The outer pipes (|) are optional, and you don’t need to make the raw Markdown line up prettily. You can also use inline Markdown.</p>
+<p>Markdown | Less | Pretty
+— | — | —
+<em>Still</em> | <code class="docutils literal notranslate"><span class="pre">renders</span></code> | <strong>nicely</strong>
+1 | 2 | 3</p>
+<a name="blockquotes"/></div>
+<div class="section" id="blockquotes">
+<h4>Blockquotes<a class="headerlink" href="#blockquotes" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span><span class="k">&gt; </span><span class="ge">Blockquotes are very handy in email to emulate reply text.</span>
+<span class="k">&gt; </span><span class="ge">This line is part of the same quote.</span>
+
+Quote break.
+
+<span class="k">&gt; </span><span class="ge">This is a very long line that will still be quoted properly when it wraps. Oh boy let&#39;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</div></blockquote>
+<p>Quote break.</p>
+<blockquote>
+<div><p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+</div></blockquote>
+<a name="html"/></div>
+<div class="section" id="inline-html">
+<h4>Inline HTML<a class="headerlink" href="#inline-html" title="Link permanente para este título">¶</a></h4>
+<p>You can also use raw HTML in your Markdown, and it’ll mostly work pretty well.</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">dl</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">dt</span><span class="p">&gt;</span>Definition list<span class="p">&lt;/</span><span class="nt">dt</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">dd</span><span class="p">&gt;</span>Is something people use sometimes.<span class="p">&lt;/</span><span class="nt">dd</span><span class="p">&gt;</span>
+
+  <span class="p">&lt;</span><span class="nt">dt</span><span class="p">&gt;</span>Markdown in HTML<span class="p">&lt;/</span><span class="nt">dt</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">dd</span><span class="p">&gt;</span>Does *not* work **very** well. Use HTML <span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>tags<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">dd</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">dl</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl><a name="hr"/></div>
+<div class="section" id="horizontal-rule">
+<h4>Horizontal Rule<a class="headerlink" href="#horizontal-rule" title="Link permanente para este título">¶</a></h4>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+</pre></div>
+</div>
+<p>Three or more…</p>
+<hr class="docutils" />
+<p>Hyphens</p>
+<hr class="docutils" />
+<p>Asterisks</p>
+<hr class="docutils" />
+<p>Underscores</p>
+<a name="lines"/></div>
+<div class="section" id="line-breaks">
+<h4>Line Breaks<a class="headerlink" href="#line-breaks" title="Link permanente para este título">¶</a></h4>
+<p>My basic recommendation for learning how line breaks work is to experiment and discover – hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You’ll soon learn to get what you want. “Markdown Toggle” is your friend.</p>
+<p>Here are some things to try out:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Here<span class="s1">&#39;s a line for us to start with.</span>
+
+<span class="s1">This line is separated from the one above by two newlines, so it will be a *separate paragraph*.</span>
+
+<span class="s1">This line is also a separate paragraph, but...</span>
+<span class="s1">This line is only separated by a single newline, so it&#39;</span>s a separate line in the *same paragraph*.
+</pre></div>
+</div>
+<p>Here’s a line for us to start with.</p>
+<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
+<p>This line is also begins a separate paragraph, but…
+This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>
+<p>(Technical note: <em>Markdown Here</em> uses GFM line breaks, so there’s no need to use MD’s two-space line breaks.)</p>
+<a name="videos"/></div>
+<div class="section" id="youtube-videos">
+<h4>YouTube Videos<a class="headerlink" href="#youtube-videos" title="Link permanente para este título">¶</a></h4>
+<p>They can’t be added directly but you can add an image with a link to the video like this:</p>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;v=YOUTUBE_VIDEO_ID_HERE
+&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot;
+alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;
+</pre></div>
+</div>
+<p>Or, in pure Markdown, but losing the image sizing and border:</p>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>[<span class="nt">![IMAGE ALT TEXT HERE</span>](<span class="na">http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg</span>)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+</pre></div>
+</div>
+<a name="tex"/></div>
+<div class="section" id="tex-mathematical-formulae">
+<h4>TeX Mathematical Formulae<a class="headerlink" href="#tex-mathematical-formulae" title="Link permanente para este título">¶</a></h4>
+<p>A full description of TeX math symbols is beyond the scope of this cheatsheet. Here’s a <a class="reference external" href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">good reference</a>, and you can try stuff out on <a class="reference external" href="https://www.codecogs.com/latex/eqneditor.php">CodeCogs</a>. You can also play with formulae in the Markdown Here options page.</p>
+<p>Here are some examples to try out:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">$-</span>b <span class="se">\p</span>m <span class="se">\s</span>qrt<span class="o">{</span>b^2 - 4ac<span class="o">}</span> <span class="se">\o</span>ver 2a$
+<span class="nv">$x</span> <span class="o">=</span> a_0 + <span class="se">\f</span>rac<span class="o">{</span><span class="m">1</span><span class="o">}{</span>a_1 + <span class="se">\f</span>rac<span class="o">{</span><span class="m">1</span><span class="o">}{</span>a_2 + <span class="se">\f</span>rac<span class="o">{</span><span class="m">1</span><span class="o">}{</span>a_3 + a_4<span class="o">}}}</span>$
+$<span class="se">\f</span>orall x <span class="se">\i</span>n X, <span class="se">\q</span>uad <span class="se">\e</span>xists y <span class="se">\l</span>eq <span class="se">\e</span>psilon$
+</pre></div>
+</div>
+<p>The beginning and ending dollar signs (<code class="docutils literal notranslate"><span class="pre">$</span></code>) are the delimiters for the TeX markup.</p>
+</div>
+<div class="section" id="build-the-book-s-html-locally">
+<h4>Build the book’s HTML locally<a class="headerlink" href="#build-the-book-s-html-locally" title="Link permanente para este título">¶</a></h4>
+<p>Once you’ve generated the markdown for your notebooks and installed the
+necessary dependencies. You are ready to build your book HTML.</p>
+<p>Ensure that your notebooks have been converted to markdown, there should be a
+collection of them in <code class="docutils literal notranslate"><span class="pre">_build/</span></code>.</p>
+<p>In order to locally build your book’s HTML with Jekyll, you’ll need to either install
+a container software (Docker or Singularity) or Ruby.</p>
+<p>In our experience, we’ve found that <a class="reference external" href="https://www.docker.com/resources/what-container">containers</a>
+provide an easier installation for most systems.
+If you are developing on a system where you have administrator privileges
+(i.e., you have <code class="docutils literal notranslate"><span class="pre">root</span></code> permissions), we recommend you use <a class="reference external" href="https://docs.docker.com/get-started/">Docker</a>.</p>
+<p>We also provide instructions for using <a class="reference external" href="https://www.sylabs.io/guides/2.6/user-guide/quick_start.html">Singularity</a>,
+an alternate containerization software for systems where you do not have administrator privileges.
+To learn more about using containers, please see the
+<a class="reference external" href="https://neurohackweek.github.io/docker-for-scientists/">Docker for scientists guide</a>.</p>
+<div class="section" id="building-your-site-locally-with-containers-docker">
+<h5>Building your site locally with Containers: Docker<a class="headerlink" href="#building-your-site-locally-with-containers-docker" title="Link permanente para este título">¶</a></h5>
+<p>First, you’ll need to make sure you have Docker installed.
+There are <a class="reference external" href="https://hub.docker.com/search/?type=edition&amp;offering=community">installation instructions for each operating system</a>
+to guide you through this process.</p>
+<p>Once Docker is available on your system, you can build the image locally with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker pull emdupre/jupyter-book
+</pre></div>
+</div>
+<p>You can then access this image with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker run --rm --security-opt label:disable  <span class="se">\</span>
+   -v /full/path/to/your/book:/srv/jekyll <span class="se">\</span>
+   -p <span class="m">4000</span>:4000 <span class="se">\</span>
+   -it -u <span class="m">1000</span>:1000 <span class="se">\</span>
+   emdupre/jupyter-book bundle <span class="nb">exec</span> jekyll serve --host <span class="m">0</span>.0.0.0
+</pre></div>
+</div>
+<p>If you navigate to <code class="docutils literal notranslate"><span class="pre">http://0.0.0.0:4000/jupyter-book/</span></code> in your browser,
+you should see a preview copy of your book.
+If you instead see an error, please try to update your local book;
+see <a class="reference external" href="https://jupyterbook.org/guide/04_faq.html#how-can-i-update-my-book">the Jupyter Book FAQ section</a>
+for more details on how to do so.</p>
+</div>
+<div class="section" id="building-your-site-locally-with-containers-singularity">
+<h5>Building your site locally with Containers: Singularity<a class="headerlink" href="#building-your-site-locally-with-containers-singularity" title="Link permanente para este título">¶</a></h5>
+<p>If you are on a system where you do not have administrator privileges (such as a shared
+computing cluster), you will not be able to use Docker.
+Instead, you can use Singularity.
+First, you’ll need to check with your resource manager that Singularity is available
+on your system.</p>
+<p>You can then create a Jupyter Book Singularity image using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>singularity build jupyter-book.simg docker://emdupre/jupyter-book
+</pre></div>
+</div>
+<p>Next, you can access this image with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>singularity run -B /full/path/to/your/book:/srv/jekyll <span class="se">\</span>
+    --pwd /srv/jekyll <span class="se">\</span>
+    jupyter-book.simg bundle <span class="nb">exec</span> jekyll serve
+</pre></div>
+</div>
+<p>And that’s it! If you navigate to <code class="docutils literal notranslate"><span class="pre">http://127.0.0.1:4000/jupyter-book/</span></code> in your browser,
+you should see a preview copy of your book.</p>
+</div>
+<div class="section" id="building-your-site-locally-with-ruby">
+<h5>Building your site locally with Ruby<a class="headerlink" href="#building-your-site-locally-with-ruby" title="Link permanente para este título">¶</a></h5>
+<p>You can also choose to build your site locally without a container.
+In this case, you’ll need Ruby, an open-source programming language, to build your site’s
+HTML with Jekyll. The easiest way to install Ruby on *nix systems is to use
+the <em><code class="docutils literal notranslate"><span class="pre">conda</span></code></em> package manager:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge ruby
+</pre></div>
+</div>
+<p>Once you have Ruby installed, run</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make install
+</pre></div>
+</div>
+<p>which will install Bundler (a Ruby dependency management tool) and then install the plugins
+needed to build the site for your book.</p>
+<p>You can then build the site locally by running:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make site
+</pre></div>
+</div>
+<p>Alternatively, you can preview your book’s site locally by running this command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make serve
+</pre></div>
+</div>
+<p>This should open up a port on your computer with a live version of the book.</p>
+</div>
+<div class="section" id="when-should-you-build-the-html-locally">
+<h5>When should you build the HTML locally?<a class="headerlink" href="#when-should-you-build-the-html-locally" title="Link permanente para este título">¶</a></h5>
+<p>You might ask: if GitHub pages can build my site automatically from the markdown files, why
+build it locally? The main reason for this is that you get more flexibility by building locally
+and serving raw HTML, as opposed to auto-building the site with GitHub-pages.</p>
+<p>In particular, if you wish to use any <strong>extra Jekyll plugins</strong>, such as the <code class="docutils literal notranslate"><span class="pre">jekyll-scholar</span></code> plugin that
+enables you to add citations and bibliographies, then you need to build your site
+locally as HTML. GitHub-pages doesn’t let you enable any extra plugins if it auto-builds your site.</p>
+</div>
+</div>
+<div class="section" id="create-an-online-repository-for-your-book">
+<h4>Create an <em>online</em> repository for your book<a class="headerlink" href="#create-an-online-repository-for-your-book" title="Link permanente para este título">¶</a></h4>
+<p>You’ve created your book on your own computer, but you haven’t yet added it
+online. This section covers the steps to create your own GitHub repository,
+and to add your book’s content to it.</p>
+<ol class="simple">
+<li><p>First, log-in to GitHub, then go to the “create a new repository” page:</p></li>
+</ol>
+<p>https://github.com/new</p>
+<ol>
+<li><p>Next, add a name and description for your book. You can choose whatever
+initialization you’d like.</p></li>
+<li><p>Now, clone the empty repository to your computer:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/&lt;my-org&gt;/&lt;my-book-name&gt;
+</pre></div>
+</div>
+</li>
+<li><p>Copy all of your book files and folders (what was created when you ran <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">create</span> <span class="pre">mybook</span></code>)
+into the new repository. For example, if you created your book locally with <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">create</span> <span class="pre">mylocalbook</span></code>
+and your online repository is called <code class="docutils literal notranslate"><span class="pre">myonlinebook</span></code>, the command would be:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp -r mylocalbook/* myonlinebook/
+</pre></div>
+</div>
+<p>This will copy over the local book files into the online book folder.</p>
+</li>
+<li><p>Commit the new files to the repository in <code class="docutils literal notranslate"><span class="pre">myonlinebook/</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> myonlinebook
+git add ./*
+git commit -m <span class="s2">&quot;adding my first book!&quot;</span>
+git push
+</pre></div>
+</div>
+</li>
+</ol>
+<p>That’s it!</p>
+</div>
+<div class="section" id="publish-your-book-online-with-github-pages">
+<h4>Publish your book online with GitHub Pages<a class="headerlink" href="#publish-your-book-online-with-github-pages" title="Link permanente para este título">¶</a></h4>
+<p>Once you’ve built the markdown for your book (in <code class="docutils literal notranslate"><span class="pre">_build</span></code>) or built the HTML
+for your book (in <code class="docutils literal notranslate"><span class="pre">_site</span></code>), you can push your book contents to GitHub so that
+others can access your book. To do so, follow these steps:</p>
+<ol>
+<li><p>Confirm that your site files are built. You should see a
+collection of markdown files/folders in the <code class="docutils literal notranslate"><span class="pre">_build</span></code> folder,
+or a collection of HTML in your <code class="docutils literal notranslate"><span class="pre">_site/</span></code> folder.</p></li>
+<li><p>Commit and push the changes to your repository.</p></li>
+<li><p>Enable GitHub site building for your repository.</p>
+<p>From your GitHub repository, click <code class="docutils literal notranslate"><span class="pre">Settings</span></code> then scroll down to the
+<code class="docutils literal notranslate"><span class="pre">GitHub</span> <span class="pre">Pages</span></code> section. You should see the message <code class="docutils literal notranslate"><span class="pre">Your</span> <span class="pre">site</span> <span class="pre">is</span> <span class="pre">published</span> <span class="pre">at</span> <span class="pre">&lt;YOUR-URL&gt;</span></code>.
+Ensure that you’re building from the correct folder.</p>
+</li>
+<li><p>Go to the URL listed at <code class="docutils literal notranslate"><span class="pre">&lt;YOUR-URL&gt;</span></code> and you should see your live site.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          De José Daniel<br/>
+        
+            &copy; direito autoral 2020, José Daniel.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

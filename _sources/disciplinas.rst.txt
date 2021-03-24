@@ -3,39 +3,49 @@
 Disciplinas
 ==================================
 
-.. image:: _static/img/python.webp
+.. figure:: _static/img/python.webp
    :height: 300px
    :width: 300 px
-   :alt: Python
    :align: left
    :target: arquitetura/index.html
+   :alt: Curso Python
    
-.. image:: _static/img/poo.webp
+   Curso Python
+
+.. figure:: _static/img/poo.webp
    :height: 300px
    :width: 300 px
-   :alt: Python Orientado a Objetos
    :align: left   
    :target: poo/index.html
+   :alt: Curso Python Orientado a Objetos  
    
-.. image:: _static/img/so.webp
+   Curso Python Orientado a Objetos  
+   
+.. figure:: _static/img/so.webp
    :height: 300px
    :width: 300 px
-   :alt: Sistemas Operacionais
    :align: left
    :target: so/index.html
+   :alt: Curso Sistemas Operacionais
    
-.. image:: _static/img/arquitetura.webp
+   Curso Sistemas Operacionais
+   
+.. figure:: _static/img/arquitetura.webp
    :height: 300px
    :width: 300 px
-   :alt: Arquitetura de Computadores
    :align: left
    :target: arquitetura/index.html
+   :alt: Curso Arquitetura de Computadores
    
-.. image:: _static/img/informatica.webp
+   Curso Arquitetura de Computadores
+
+   
+.. figure:: _static/img/informatica.webp
    :height: 300px
    :width: 300 px
-   :alt: Informática
    :align: left  
    :target: informatica/index.html
+   :alt: Curso Informática
    
+   Curso Informática
    

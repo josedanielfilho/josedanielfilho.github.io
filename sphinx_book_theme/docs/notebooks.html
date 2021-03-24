@@ -1,0 +1,669 @@
+
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jupytext: formats: ipynb,md:myst text_representation: extension: .md format_name: myst format_version: 0.12 jupytext_version: 1.8.2 kernelspec: display_name: Python 3 language: python name: python3 &#8212; documentação José Daniel </title>
+    
+  <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <link rel="shortcut icon" href="../../_static/icon.png"/>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Buscar" href="../../search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">documentação José Daniel </h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Pesquise os documentos ..." aria-label="Pesquise os documentos ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Conteúdos:
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../disciplinas.html">
+   Disciplinas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Manual do Aluno
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../contato.html">
+   Contato
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Cursos/Disciplinas
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../python/index.html">
+   Python
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../python/introducao.html">
+     Arquitetura de Computadores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../python/parte1.html">
+     Welcome to Python’s documentation!
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../python/parte2.html">
+     Parte2
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../arquitetura/index.html">
+   Arquitetura de Computadores
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa1.html">
+     1. Evolução da arquitetura de computadores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa2.html">
+     2. Sistemas de numeração
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa3.html">
+     3. Representação de dados
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa4.html">
+     4. Componentes de Hardware
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa5.html">
+     5. O Processador: organização e arquitetura
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa6.html">
+     6. Subsistema de memória
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa7.html">
+     7. Barramentos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../arquitetura/etapa8.html">
+     8. Projeto
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../so/index.html">
+   Sistemas Operacionais
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa1.html">
+     1. Introdução a Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa2.html">
+     2. Windows
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa3.html">
+     3. Arquiteturas de Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa4.html">
+     4. Processos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa5.html">
+     5. Gerenciamento de memória
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa6.html">
+     6. Gerencimento de Arquivos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa7.html">
+     7. Linux
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../so/etapa8.html">
+     8. Projeto
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../informatica/index.html">
+   Informática
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa1.html">
+     1. Definição de informática
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa2.html">
+     2. Hardware
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa3.html">
+     3. Software
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa4.html">
+     4. Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa5.html">
+     5. Internet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa6.html">
+     6. Processador de texto
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa7.html">
+     7. Planilha eletrônica
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../informatica/etapa8.html">
+     8. Apresentação
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Alternar de navegação" aria-controls="site-navigation"
+                title="Alternar de navegação" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Baixe esta página"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/sphinx_book_theme/docs/notebooks.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Baixar arquivo fonte" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimir em PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Modo tela cheia"
+                    title="Modo tela cheia"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Conteúdo
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   jupytext:
+formats: ipynb,md:myst
+text_representation:
+extension: .md
+format_name: myst
+format_version: 0.12
+jupytext_version: 1.8.2
+kernelspec:
+display_name: Python 3
+language: python
+name: python3
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#content-with-notebooks">
+   Content with notebooks
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-notebooks">
+     Markdown + notebooks
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-blocks-and-image-outputs">
+     Code blocks and image outputs
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#removing-content-before-publishing">
+     Removing content before publishing
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interactive-outputs">
+     Interactive outputs
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rich-outputs-from-notebook-cells">
+     Rich outputs from notebook cells
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <hr class="docutils" />
+<div class="section" id="jupytext-formats-ipynb-md-myst-text-representation-extension-md-format-name-myst-format-version-0-12-jupytext-version-1-8-2-kernelspec-display-name-python-3-language-python-name-python3">
+<h1>jupytext:
+formats: ipynb,md:myst
+text_representation:
+extension: .md
+format_name: myst
+format_version: 0.12
+jupytext_version: 1.8.2
+kernelspec:
+display_name: Python 3
+language: python
+name: python3<a class="headerlink" href="#jupytext-formats-ipynb-md-myst-text-representation-extension-md-format-name-myst-format-version-0-12-jupytext-version-1-8-2-kernelspec-display-name-python-3-language-python-name-python3" title="Link permanente para este título">¶</a></h1>
+</div>
+<div class="section" id="content-with-notebooks">
+<h1>Content with notebooks<a class="headerlink" href="#content-with-notebooks" title="Link permanente para este título">¶</a></h1>
+<p>You can also create content with Jupyter Notebooks. The content for the current page is contained
+in a Jupyter Notebook in the <code class="docutils literal notranslate"><span class="pre">notebooks/</span></code> folder of the repository. This means that we can include
+code blocks and their outputs, and export them to Jekyll markdown.</p>
+<p><strong>You can find the original notebook for this page <a class="reference external" href="https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/book_template/content/features/notebooks.ipynb">at this address</a></strong></p>
+<div class="section" id="markdown-notebooks">
+<h2>Markdown + notebooks<a class="headerlink" href="#markdown-notebooks" title="Link permanente para este título">¶</a></h2>
+<p>As it is markdown, you can embed images, HTML, etc into your posts!</p>
+<p><img alt="../../_images/cool.jpg" src="../../_images/cool.jpg" /></p>
+<p>You an also $add_{math}$ and</p>
+<p>$$
+math^{blocks}
+$$</p>
+<p>or</p>
+<p>$$
+\begin{align*}
+\mbox{mean} la_{tex} \ \
+math blocks
+\end{align*}
+$$</p>
+<p>But make sure you $Escape $your $dollar signs $you want to keep!</p>
+</div>
+<div class="section" id="code-blocks-and-image-outputs">
+<h2>Code blocks and image outputs<a class="headerlink" href="#code-blocks-and-image-outputs" title="Link permanente para este título">¶</a></h2>
+<p>Jupyter Book will also embed your code blocks and output in your book.
+For example, here’s some sample Matplotlib code:</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide-cell, thebe-init]
+
+from matplotlib import rcParams, cycler
+import matplotlib.pyplot as plt
+import numpy as np
+plt.ion()
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span># Fixing random state for reproducibility
+np.random.seed(19680801)
+
+N = 10
+data = [np.logspace(0, 1, 100) + np.random.randn(100) + ii for ii in range(N)]
+data = np.array(data).T
+cmap = plt.cm.coolwarm
+rcParams[&#39;axes.prop_cycle&#39;] = cycler(color=cmap(np.linspace(0, 1, N)))
+
+
+from matplotlib.lines import Line2D
+custom_lines = [Line2D([0], [0], color=cmap(0.), lw=4),
+                Line2D([0], [0], color=cmap(.5), lw=4),
+                Line2D([0], [0], color=cmap(1.), lw=4)]
+
+fig, ax = plt.subplots(figsize=(10, 5))
+lines = ax.plot(data)
+ax.legend(custom_lines, [&#39;Cold&#39;, &#39;Medium&#39;, &#39;Hot&#39;]);
+</pre></div>
+</div>
+<p>Note that the image above is captured and displayed by Jekyll.</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [remove_input]
+
+# Fixing random state for reproducibility
+np.random.seed(19680801)
+
+N = 10
+data = [np.logspace(0, 1, 100) + .1*np.random.randn(100) + ii for ii in range(N)]
+data = np.array(data).T
+cmap = plt.cm.coolwarm
+rcParams[&#39;axes.prop_cycle&#39;] = cycler(color=cmap(np.linspace(0, 1, N)))
+
+
+from matplotlib.lines import Line2D
+custom_lines = [Line2D([0], [0], color=cmap(0.), lw=4),
+                Line2D([0], [0], color=cmap(.5), lw=4),
+                Line2D([0], [0], color=cmap(1.), lw=4)]
+
+fig, ax = plt.subplots(figsize=(10, 5))
+lines = ax.plot(data)
+ax.legend(custom_lines, [&#39;Cold&#39;, &#39;Medium&#39;, &#39;Hot&#39;])
+ax.set(title=&quot;Smoother lines&quot;);
+</pre></div>
+</div>
+<div class="highlight-{margin} You can also pop out content to the margin notranslate"><div class="highlight"><pre><span></span>For more information on how to do this,
+check out {doc}`layout`.
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [margin]
+
+print(&quot;this works for code cells too, if you add a `margin` tag to them&quot;)
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span># You can also include enriched outputs like Math
+from IPython.display import Math
+Math(&quot;\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}&quot;)
+</pre></div>
+</div>
+</div>
+<div class="section" id="removing-content-before-publishing">
+<h2>Removing content before publishing<a class="headerlink" href="#removing-content-before-publishing" title="Link permanente para este título">¶</a></h2>
+<p>You can also remove some content before publishing your book to the web. For example,
+in <a class="reference external" href="https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/book_template/content/features/notebooks.ipynb">the original notebook</a> there
+used to be a cell below…</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [remove_cell]
+
+thisvariable = &quot;none of this should show up in the textbook&quot;
+
+fig, ax = plt.subplots()
+x = np.random.randn(100)
+y = np.random.randn(100)
+ax.scatter(x, y, s=np.abs(x*100), c=x, cmap=plt.cm.coolwarm)
+ax.text(0, .5, thisvariable, fontsize=20, transform=ax.transAxes)
+ax.set_axis_off()
+</pre></div>
+</div>
+<p>You can also <strong>remove only the code</strong> so that images and other output still show up.</p>
+<p>Below we’ll <em>only</em> display an image. It was generated with Python code in a cell,
+which you can <a class="reference external" href="https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/book_template/content/features/notebooks.ipynb">see in the original notebook</a></p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide_input]
+
+thisvariable = &quot;this plot *will* show up in the textbook.&quot;
+
+fig, ax = plt.subplots()
+x = np.random.randn(100)
+y = np.random.randn(100)
+ax.scatter(x, y, s=np.abs(x*100), c=x, cmap=plt.cm.coolwarm)
+ax.text(0, .5, thisvariable, fontsize=20, transform=ax.transAxes)
+ax.set_axis_off()
+</pre></div>
+</div>
+<p>And here we’ll <em>only</em> display a Pandas DataFrame. Again, this was generated with Python code
+from <a class="reference external" href="https://github.com/jupyter/textbooks-with-jupyter/blob/master/notebooks/introduction/notebooks.ipynb">this original notebook</a>.</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide_input]
+
+import pandas as pd
+df = pd.DataFrame([[&#39;hi&#39;, &#39;there&#39;], [&#39;this&#39;, &#39;is&#39;], [&#39;a&#39;, &#39;DataFrame&#39;]], columns=[&#39;Word A&#39;, &#39;Word B&#39;])
+df
+</pre></div>
+</div>
+<p>You can even style Pandas DataFrames!
+See <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html">the Pandas Styling docs</a> for more information.</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>:tags: [hide-input]
+
+import pandas as pd
+
+np.random.seed(24)
+df = pd.DataFrame({&#39;A&#39;: np.linspace(1, 10, 10)})
+df = pd.concat([df, pd.DataFrame(np.random.randn(10, 4), columns=list(&#39;BCDE&#39;))],
+               axis=1)
+df.iloc[3, 3] = np.nan
+df.iloc[0, 2] = np.nan
+
+def color_negative_red(val):
+    &quot;&quot;&quot;
+    Takes a scalar and returns a string with
+    the css property `&#39;color: red&#39;` for negative
+    strings, black otherwise.
+    &quot;&quot;&quot;
+    color = &#39;red&#39; if val &lt; 0 else &#39;black&#39;
+    return &#39;color: %s&#39; % color
+
+def highlight_max(s):
+    &#39;&#39;&#39;
+    highlight the maximum in a Series yellow.
+    &#39;&#39;&#39;
+    is_max = s == s.max()
+    return [&#39;background-color: yellow&#39; if v else &#39;&#39; for v in is_max]
+
+df.style.\
+    applymap(color_negative_red).\
+    apply(highlight_max).\
+    set_table_attributes(&#39;style=&quot;font-size: 10px&quot;&#39;)
+</pre></div>
+</div>
+<p>+++ {“tags”: [“popout”]}</p>
+<p>Testing popouts before headers</p>
+<p>+++</p>
+</div>
+<div class="section" id="interactive-outputs">
+<h2>Interactive outputs<a class="headerlink" href="#interactive-outputs" title="Link permanente para este título">¶</a></h2>
+<p>We can even do the same for <em>interactive</em> material. Below we’ll display a map using <a class="reference external" href="https://python-visualization.github.io/folium/">folium</a>. When the notebook
+is converted to Markdown, the code for creating the interactive map is retained.</p>
+<p><strong>Note that this will only work for some packages.</strong> They need to be able to output standalone HTML/Javascript, and not
+depend on an underlying Python kernel to work.</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>import folium
+</pre></div>
+</div>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span>m = folium.Map(
+    location=[45.372, -121.6972],
+    zoom_start=12,
+    tiles=&#39;Stamen Terrain&#39;
+)
+
+folium.Marker(
+    location=[45.3288, -121.6625],
+    popup=&#39;Mt. Hood Meadows&#39;,
+    icon=folium.Icon(icon=&#39;cloud&#39;)
+).add_to(m)
+
+folium.Marker(
+    location=[45.3311, -121.7113],
+    popup=&#39;Timberline Lodge&#39;,
+    icon=folium.Icon(color=&#39;green&#39;)
+).add_to(m)
+
+folium.Marker(
+    location=[45.3300, -121.6823],
+    popup=&#39;Some Other Location&#39;,
+    icon=folium.Icon(color=&#39;red&#39;, icon=&#39;info-sign&#39;)
+).add_to(m)
+
+
+m
+</pre></div>
+</div>
+</div>
+<div class="section" id="rich-outputs-from-notebook-cells">
+<h2>Rich outputs from notebook cells<a class="headerlink" href="#rich-outputs-from-notebook-cells" title="Link permanente para este título">¶</a></h2>
+<p>+++</p>
+<p>Because notebooks have rich text outputs, you can store these in
+your Jupyter Book as well!</p>
+<div class="highlight-{code-cell} ipython3 notranslate"><div class="highlight"><pre><span></span># The ! causes this to run as a shell command
+!jupyter -h
+</pre></div>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          De José Daniel<br/>
+        
+            &copy; direito autoral 2020, José Daniel.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

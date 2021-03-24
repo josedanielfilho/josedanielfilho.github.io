@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html4" lang="pt-BR" >
+<html class="writer-html5" lang="pt-BR" >
 <head>
 	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
 
@@ -33,11 +33,10 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="../_static/language_data.js"></script>
-        <script type="text/javascript" src="../_static/translations.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -162,7 +161,7 @@
         
           <li><a href="index.html">Arquitetura de Computadores</a> &raquo;</li>
         
-      <li>1. Evolução da arquitetura de computadores</li>
+      <li><span class="section-number">1. </span>Evolução da arquitetura de computadores</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -180,18 +179,72 @@
            <div itemprop="articleBody">
             
   <div class="section" id="evolucao-da-arquitetura-de-computadores">
-<h1>1. Evolução da arquitetura de computadores<a class="headerlink" href="#evolucao-da-arquitetura-de-computadores" title="Link permanente para este título">¶</a></h1>
+<h1><span class="section-number">1. </span>Evolução da arquitetura de computadores<a class="headerlink" href="#evolucao-da-arquitetura-de-computadores" title="Link permanente para este título">¶</a></h1>
+<p>Provavelmente você já se perguntou como o computador funciona e porque precisamos de tantas peças para ele funcionar. Nesse livro você vai aprender quais são as peças de um computador e como elas funcionam.
+Entender como os computadores funcionam é muito importante para quem trabalha na área da computação pois permite entender quais são as características de cada componentes e suas limitações para a construção de sistemas computacionais. Cada componente de um computador tem uma função e cada um precisa esta interligado ao outro para que o sistema funcione. Sabe o funcionamento do hardware permite que profissional da tecnologia possa resolver problemas e criar sistemas computacionais modernos. Também permite que programadores saibam como seus programas funcionam e a ate utilizar esses conhecimentos para otimiza-los.</p>
 <div class="section" id="arquitetura-vs-organizacao-de-computadores">
-<h2>1.1. Arquitetura vs Organização de computadores<a class="headerlink" href="#arquitetura-vs-organizacao-de-computadores" title="Link permanente para este título">¶</a></h2>
+<h2><span class="section-number">1.1. </span>Arquitetura vs Organização de computadores<a class="headerlink" href="#arquitetura-vs-organizacao-de-computadores" title="Link permanente para este título">¶</a></h2>
+<p>O termo arquitetura é utilizado principalmente na construção civil para projetar edificação, descrevendo sua forma e estrutura. Já o termo Arquitetura de Computadores serve para descreve como construir computadores, permitindo entender os componentes de hardware de um sistema computacional. Então a arquitetura de computadores e um campo de estudo da computação que se preocupa em entender como os componentes visíveis a um programador funcionam. Por exemplo todos os computadores precisam de um componente de memoria RAM em sua arquitetura.
+Outro termo muito importante é a organização de computadores, este se preocupa em entender como os recursos de uma unidade operacional são implementados e como as partes interagem entre-si. Como vimos anteriormente todos os computadores precisam de memória, mas essa memória pode está configurada de diferentes formas como a tecnologia de dual Chanel. Vale observar que a organização é transparente ao programador, então seu programa não vai saber se seu computador está usando uma tecnologia dual channel.
+Um outro exemplo fora do mundo computacional é um carro, a arquitetura dos carros modernos precisa de uma embreagem. Mas, como cada fabricante de carro implementa essa embreagem é diferente, mas cada embreagem tem a mesma função.
+Então uma mesma arquitetura de computadores pode ser implementada de diferenças formas, por isso é tão importante entender a organização de computadores. Nesse livro vamos entender tanto a arquitetura como o modelo da organização e funcionamento de um sistema computacional, com todas suas partes e como elas se comunicam e interagem.
+Um exemplo clássico de arquitetura e organização de computadores é a arquitetura X86 presente nos computadores atuais. Essa arquitetura surgiu em 1978 e com o passar dos anos os fabricantes foram implementados essa arquitetura de diferentes formas alterado a interface e características.</p>
+<div class="section" id="funcao">
+<h3><span class="section-number">1.1.1. </span>Função<a class="headerlink" href="#funcao" title="Link permanente para este título">¶</a></h3>
+<p>Antes de começar nossos estudos precisamos entender a diferença entre estrutura e função dos componentes de um sistema computacional. Isso se deve pois os computadores são sistema robustos que possuem uma estrutura complexa que é dividida em diferentes partes cada uma com uma determinada função e dividir as diferentes partes de sua estrutura facilita sua implementação. Por exemplo, um automóvel, suas partes são construídos em diferentes lugares ao longo do mundo cada parte tem uma função e todas elas são unidas em uma montadora de automóvel para construir um automóvel.
+Um sistema é um conjunto de elementos interdependentes de modo a formar um todo organizado. Sendo que cada parte de um sistema realiza uma função especifica, mas depende da outra para funcionar corretamente.
+A função é a operação individual de cada componente como parte da estrutura. Um mesmo componente pode ter várias funções, por exemplo o processador é capara de fazer operações aritméticas por meio da ULA (Unidade Lógica ou Aritmética) e buscar e entender as instruções que deverão ser executados por meio da UC (Unidade de controle) que veremos nos próximos capítulos.
+As principais funções de um computador são: processamento de dados; Armazenamento de dados; Movimentação de dados; Controle.
+Quando seu computador que executar uma instrução x+y. O processador deve ser capaz de realizar essa operação aritmética demostrado que ele possuiu a função de processar dados. Antes de fazer essa operação primeiro deve-se saber qual é o valor de x e y então ele precisa movimentar o valor de x e y que estão na memória principal para um registrador por meio da função de movimentação de dados. Perceba que esses dados precisam estar guardados em algum lugar, na verdade um dado é guardado em vários lugares como veremos posteriormente. A operação de movimentação irá mover os dados de uma unidade de armazenamento para outra como mover um dado que está na RAM para um Registrador no computador. Outra função é controle e orquestrar o desempenho de suas partes funcionais na resposta às instruções essa função é desempenhada principalmente por sua unidade de controle.</p>
+</div>
 </div>
 <div class="section" id="elementos-do-sistema-computacional">
-<h2>1.2. Elementos do sistema computacional<a class="headerlink" href="#elementos-do-sistema-computacional" title="Link permanente para este título">¶</a></h2>
-</div>
+<h2><span class="section-number">1.2. </span>Elementos do sistema computacional<a class="headerlink" href="#elementos-do-sistema-computacional" title="Link permanente para este título">¶</a></h2>
+<p>A válvula foi o primeiro componente eletrônico a ser usado para processar dados sendo inventada por John Ambrose Fleming em 1904. Podemos fazer uma analogia da válvula com uma lâmpada as duas tem dois estados: ligado e desligado. A válvula é um componente eletrônico que consistido por um invólucro de vidro e  dentro possui um filamento metálico.
+Todo o sistema eletrônico parte do principio binário de zero e um. O zero significa que não está passado corrente elétrica por um componente eletrônico e um representam que está passado corrente elétrica. Por isso que é muito importante que profissionais do ramo da computação estudem o sistema binário. No caso das válvulas quando elas estavam ligadas representava o valor um (1) e quando ela está desligada representam o valor zero (0) esse mesmo princípio é aplicado para o funcionamento dos transistores atuais. Os valores zero e um também são chamados de bit (BInary digiT).
+Os transistores um dispositivo semicondutor usado para amplificar ou trocar sinais eletrônicos e potência elétrica, sendo fundamental para dos dispositivos eletrônicos modernos. Dentro de um circuito eletrônico os circuitos são combinados para realizar  operações lógicas e aritméticas.</p>
 <div class="section" id="computadores-analogicos-x-digitais">
-<h2>1.3. Computadores analógicos x digitais<a class="headerlink" href="#computadores-analogicos-x-digitais" title="Link permanente para este título">¶</a></h2>
+<h3><span class="section-number">1.2.1. </span>Computadores analógicos x digitais<a class="headerlink" href="#computadores-analogicos-x-digitais" title="Link permanente para este título">¶</a></h3>
+<p>Você já ouviu falar dos termos analógicos e digital? Se não, você precisa saber que estamos em um mundo digital e o que isso significa.
+Um computador, tablet, celular, etc … são dispositivos eletrônico digital isso quer dizer que toda informação presentes nesses dispositivos estar na forma binária (zero e um). Toda a informação como programas, textos, imagens, vídeos e áudios para ser processado por um computador moderno deve estar na forma binária. Como falado anteriormente, o zero significa que não possui corrente elétrica no componente eletrônico e o um representa que ele está ele estar energizado.
+Então sabemos que um computador digital precisa que as informações estejam no formato binário, já em um sistema analógico os valores estão na escala real. Por exemplo, a temperatura é representada na forma analógica como 30,6 º C. Qualquer informação presente na natureza pode ser analisada em na sua intensidade e tempo.</p>
+<p>Figura 2: Sinal Analógico versus Sinal Digital</p>
+<p>Toda a informação presente na natureza está na forma analógica e essa informação precisa ser convertida para o sistema digital para que um computador possa processa-la.
+Para entendermos melhor o que é digital e analógico vamos para um exemplo. Quando uma pessoa te pergunta se é meio dia (12:00 horas) você só tem duas opções de resposta: sim ou não. Então essa informação está na forma digital. Agora se essa mesma pessoa pergunta que horas são você iria olhar para o relógio e informa a hora, por exemplo 8horas 43 minutos, perceba que nesse caso você não tem dias opções de resposta e o que torna essa informação analógica.</p>
+<p>Quando você escuta um som  o que está acontecendo e que seu ouvido está capitando as vibrações no ar de diferentes intensidades ao longo do tempo. Seu ouvido não é capaz de captar todas as frequências de onda sonora apenas uma pequena parte e muitas das vibrações do ar são imperceptíveis aos seus ouvidos. Para que essa informação seja processada por um sistema computacional o microfone do seu celular deve captar as vibrações do ar e deve converte-las para o sistema digital. Perceba que toda vez que ocorre a transformação de um valor analógico para digital ocorre uma perda de informação.</p>
+</div>
+</div>
+<div class="section" id="id1">
+<h2><span class="section-number">1.3. </span>Computadores analógicos x digitais<a class="headerlink" href="#id1" title="Link permanente para este título">¶</a></h2>
+<p>Você já ouviu falar dos termos analógicos e digital? Se não, você precisa saber que estamos em um mundo digital e o que isso significa.
+Um computador, tablet, celular, etc … são dispositivos eletrônico digital isso quer dizer que toda informação presentes nesses dispositivos estar na forma binária (zero e um). Toda a informação como programas, textos, imagens, vídeos e áudios para ser processado por um computador moderno deve estar na forma binária. Como falado anteriormente, o zero significa que não possui corrente elétrica no componente eletrônico e o um representa que ele está ele estar energizado.
+Então sabemos que um computador digital precisa que as informações estejam no formato binário, já em um sistema analógico os valores estão na escala real. Por exemplo, a temperatura é representada na forma analógica como 30,6 º C. Qualquer informação presente na natureza pode ser analisada em na sua intensidade e tempo.</p>
+<p>Figura 2: Sinal Analógico versus Sinal Digital</p>
+<p>Toda a informação presente na natureza está na forma analógica e essa informação precisa ser convertida para o sistema digital para que um computador possa processa-la.
+Para entendermos melhor o que é digital e analógico vamos para um exemplo. Quando uma pessoa te pergunta se é meio dia (12:00 horas) você só tem duas opções de resposta: sim ou não. Então essa informação está na forma digital. Agora se essa mesma pessoa pergunta que horas são você iria olhar para o relógio e informa a hora, por exemplo 8horas 43 minutos, perceba que nesse caso você não tem dias opções de resposta e o que torna essa informação analógica.</p>
+<p>Quando você escuta um som  o que está acontecendo e que seu ouvido está capitando as vibrações no ar de diferentes intensidades ao longo do tempo. Seu ouvido não é capaz de captar todas as frequências de onda sonora apenas uma pequena parte e muitas das vibrações do ar são imperceptíveis aos seus ouvidos. Para que essa informação seja processada por um sistema computacional o microfone do seu celular deve captar as vibrações do ar e deve converte-las para o sistema digital. Perceba que toda vez que ocorre a transformação de um valor analógico para digital ocorre uma perda de informação.</p>
 </div>
 <div class="section" id="historia-da-computacao">
-<h2>1.4. Historia da computação<a class="headerlink" href="#historia-da-computacao" title="Link permanente para este título">¶</a></h2>
+<h2><span class="section-number">1.4. </span>Historia da computação<a class="headerlink" href="#historia-da-computacao" title="Link permanente para este título">¶</a></h2>
+<p>O ser humano sempre teve a necessidade de representar quantidade por meio de sistemas numéricos e também fazer operações matemáticas com os números. Os primeiros cálculos matemáticos foram realizados com os dedos das mãos e com o passar dos foram desenvolvidas diversas ferramentas ao longo da história para realizar cálculos mais complexos. Nessa sessão vamos estudar a historia dos computadores.</p>
+<p>Figura 3: Linha do tempo dos precursores dos computadores</p>
+<p>Um das primeiros ferramentas que foram desenvolvidas para ajudar o homem a fazer cálculos matemáticos foi o ábaco. Acredita-se que essa ferramenta foi inventada por volta de 2400 a.C. (antes de cristo) na Mesopotâmia. Esta calculadora rudimentar possui forma retangular com hastes internas com 10 peças cada, cada peça em uma haste representa um valor numérico como: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. A primeira haste representa a unidade, a segunda representa a dezena, a terceira representa a centena, sendo que quanto mais haste possui um ábaco maior o número que ele pode representar.</p>
+<p>Figura 2: Ábaco</p>
+<p>Em 1617 o matemático John Napier inventou um dispositivo de cálculo chamado de Ossos de Napier capaz de trabalhar com produtos e quocientes de números. O dispositivo consiste em uma placa de base com uma jante; o usuário coloca hastes de Napier dentro do aro para a realização de multiplicação ou divisão. Margem esquerda do tabuleiro é dividido em 9 quadrados, mantendo os números de 1 a 9. As hastes de Napier consistem em tiras de madeira, metal ou papelão pesado. Ossos de Napier são tridimensionais, quadrado na seção transversal, com quatro diferentes varas gravadas em cada um.
+A superfície da haste compreende 9 quadrados, o primeiro quadrado de cada vara tem um único dígito, e os outros quadrados guardaram deste número duplos, triplos, quádruplos, quíntuplos, e assim por diante até o último quadrado contém nove vezes o número na praça top. Os dígitos de cada produto são escritos um de cada lado da diagonal; números de menos do que 10 ocupar o triângulo inferior, com um zero na metade superior. Um conjunto é composto por 10 hastes correspondentes aos dígitos de 0 a 9. A haste 0, embora possa parecer desnecessário, é necessário para multiplicadores ou multiplicações possuindo 0 neles.</p>
+<p>Figura 3: Ossos de Napier
+A régua de cálculo é um dispositivo de cálculo inventada pelo matemático William Oughtred em 1622 que se baseia na sobreposição de escalas logarítmicas baseada em outro dispositivo de cálculo chamado de Ossos de Napier.
+Os cálculos são realizados através de uma técnica mecânica analógica que permite a elaboração dos cálculos por meio de guias deslizantes graduadas, ou seja, réguas logarítmicas que deslizam umas sobre as outras, e os valores mostrados em suas escalas são relacionados através da ligação por um cursor dotado de linhas estrategicamente dispostas, que têm a função de correlacionar as diversas escalas da régua de cálculo.</p>
+<p>Figura 4: Régua de Cálculo</p>
+<p>O matemático Wilhelm Schickard (1592 – 1635) inventou a primeira máquina mecânica de cálculo. Essa maquina era capaz de realizar operações aritméticas de somar, subtrair, multiplicação e divisão.</p>
+<p>Figura 5: Máquina Wilhelm Schickard
+Em 1642 o matemático Blaise Pascal inventor a primeira calculadora mecânica que fazia somas e subtrações. Blaise Pascal trabalhava em escritório de coleta de impostos e desenvolveu a máquina para auxiliar no trabalho de contabilidade. Esse dispositivo é conhecido como as rodas dentadas de Pascal ou Pascaline e podia fazer operações aritméticas com 8 dígitos;</p>
+<p>Figura 6: Pascaline</p>
+<p>Máquinas Programáveis
+Um marco na história foi a invenção de máquinas programáveis, que funcionavam de forma diferente de acordo com uma programação que lhes era fornecida.
+Em 1804,  Joseph Marie Jacquard inventou uma máquina de tear que trançava o tecido de acordo com uma programação que era fornecida através de uma cartão com furos, de acordo com o padrão dos furos a máquina desenhar no tecido.</p>
+<p>Figura 8: Máquina de Jacquard
+Em 1822 Charles Babbage propôs a construção de uma máquina de calcular. O propósito da máquina seria de corrigir os erros das tabelas de logaritmos, muito utilizadas pelo governo britânico devido as grandes navegações. A construção da máquina, no entanto, excedeu em orçamento e tempo na sua construção, foi inclusive o projeto mais caro que o governo britânico já havia financiado. Eventualmente, os subsídios foram retirados e o projeto abortado.</p>
 </div>
 </div>
 
