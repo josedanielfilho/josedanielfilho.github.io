@@ -6,14 +6,18 @@
     {
       "src": "icon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "144x144"
     }
   ],
   "start_url": "/",
-  "background_color": "#3367D6",
+  "lang": "pt-BR",
+  "orientation": "any",
+   
+  
   "display": "standalone",
   "scope": "/",
   "theme_color": "#3367D6",
+  "background_color": "#3367D6",
   "shortcuts": [
   ]
 }

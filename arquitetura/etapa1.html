@@ -4,6 +4,7 @@
 <html class="writer-html5" lang="pt-BR" >
 <head>
 	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
   <meta charset="utf-8">
   <meta name="theme-color" content="#317EFB"/>
@@ -316,6 +317,71 @@ Em 1822 Charles Babbage propôs a construção de uma máquina de calcular. O pr
 
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0&appId=914656275400102&autoLogAppEvents=1" nonce="E2ao2LhL"></script>
+
+
+<script>
+    if('serviceWorker' in navigator) {
+
+        /**
+         * Define if <link rel='next|prev|prefetch'> should
+         * be preloaded when accessing this page
+         */
+        const PREFETCH = true;
+
+        /**
+         * Define which link-rel's should be preloaded if enabled.
+         */
+        const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
+
+        /**
+         * prefetchCache
+         */
+        function prefetchCache() {
+            if(navigator.serviceWorker.controller) {
+
+                let links = document.querySelectorAll(
+                    PREFETCH_LINK_RELS.map((rel) => {
+                        return 'link[rel='+rel+']';
+                    }).join(',')
+                );
+
+                if(links.length > 0) {
+                    Array.from(links)
+                        .map((link) => {
+                            let href = link.getAttribute('href');
+                            navigator.serviceWorker.controller.postMessage({
+                                action : 'cache',
+                                url : href,
+                            });
+                        });
+                }
+
+
+            }
+        }
+
+        /**
+         * Register Service Worker
+         */
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(() => {
+                console.log('Service Worker Registered');
+            });
+
+        /**
+         * Wait if ServiceWorker is ready
+         */
+        navigator.serviceWorker
+            .ready
+            .then(() => {
+                if(PREFETCH) {
+                    prefetchCache();
+                }
+            });
+
+    }
+</script>
 
 </body>
 </html>
