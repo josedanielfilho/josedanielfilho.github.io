@@ -1,184 +1,374 @@
 
-
 <!DOCTYPE html>
-<html class="writer-html5" lang="pt-BR" >
-<head>
-	<link rel="manifest" href="_static/manifest.json" crossorigin="use-credentials">
-<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
-  <meta charset="utf-8">
-  <meta name="theme-color" content="#317EFB"/>
- <meta name="Description" content="Site de educação que prover conteudos relaciodandos a informática e a computação">
- 
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>4. Sistemas Operacionais &mdash; documentação José Daniel </title>
-  
-
-  
-  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-
-  
-  
-    <link rel="shortcut icon" href="../_static/icon.png"/>
-  
-  
-  
-
-  
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4. Sistemas Operacionais &#8212; José Daniel</title>
     
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
-        <script src="../_static/doctools.js"></script>
-        <script src="../_static/translations.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Buscar" href="../search.html" />
     <link rel="next" title="5. Internet" href="etapa5.html" />
-    <link rel="prev" title="3. Software" href="etapa3.html" /> 
-</head>
+    <link rel="prev" title="3. Software" href="etapa3.html" />
 
-<body class="wy-body-for-nav">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
 
-   
-  <div class="wy-grid-for-nav">
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+
+    <div class="container-xl">
+      <div class="row">
           
-
-          
-            <a href="../index.html" class="icon icon-home"> José Daniel
-          
-
-          
-          </a>
-
-          
-            
-            
-          
-
-          
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input label="Caixa de Busca" type="text" name="q" placeholder="Caixa de Busca" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">Conteúdos:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../disciplinas.html">Disciplinas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../intro.html">Manual do Aluno</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../contato.html">Contato</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Cursos/Disciplinas</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../python/index.html">Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../arquitetura/index.html">Arquitetura de Computadores</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../so/index.html">Sistemas Operacionais</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Informática</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="etapa1.html">1. Definição de informática</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etapa2.html">2. Hardware</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etapa3.html">3. Software</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4. Sistemas Operacionais</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etapa5.html">5. Internet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etapa6.html">6. Processador de texto</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etapa7.html">7. Planilha eletrônica</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etapa8.html">8. Apresentação</a></li>
-</ul>
-</li>
-</ul>
-
-            
-          
-        </div>
-        
-      </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">José Daniel</a>
-        
-      </nav>
-
-
-      <div class="wy-nav-content">
-        
-        <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
-  <ul class="wy-breadcrumbs">
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-        
-          <li><a href="index.html">Informática</a> &raquo;</li>
-        
-      <li><span class="section-number">4. </span>Sistemas Operacionais</li>
-    
-    
-      <li class="wy-breadcrumbs-aside">
-        
-          
-        
-      </li>
-    
-  </ul>
-
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
   
-  <hr/>
+  
+  <h1 class="site-logo" id="site-title">José Daniel</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Pesquise os documentos ..." aria-label="Pesquise os documentos ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Conteúdos:
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../disciplinas.html">
+   Disciplinas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Manual do Aluno
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../contato.html">
+   Contato
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Cursos/Disciplinas
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../python/index.html">
+   Python
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../python/introducao.html">
+     Arquitetura de Computadores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../python/parte1.html">
+     Welcome to Python’s documentation!
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../python/parte2.html">
+     Parte2
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../arquitetura/index.html">
+   Arquitetura de Computadores
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa1.html">
+     1. Evolução da arquitetura de computadores
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa2.html">
+     2. Sistemas de numeração
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa3.html">
+     3. Representação de dados
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa4.html">
+     4. Componentes de Hardware
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa5.html">
+     5. O Processador: organização e arquitetura
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa6.html">
+     6. Subsistema de memória
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa7.html">
+     7. Barramentos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../arquitetura/etapa8.html">
+     8. Projeto
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../so/index.html">
+   Sistemas Operacionais
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa1.html">
+     1. Introdução a Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa2.html">
+     2. Windows
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa3.html">
+     3. Arquiteturas de Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa4.html">
+     4. Processos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa5.html">
+     5. Gerenciamento de memória
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa6.html">
+     6. Gerencimento de Arquivos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa7.html">
+     7. Linux
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../so/etapa8.html">
+     8. Projeto
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="index.html">
+   Informática
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa1.html">
+     1. Definição de informática
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa2.html">
+     2. Hardware
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa3.html">
+     3. Software
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     4. Sistemas Operacionais
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa5.html">
+     5. Internet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa6.html">
+     6. Processador de texto
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa7.html">
+     7. Planilha eletrônica
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="etapa8.html">
+     8. Apresentação
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
 </div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
             
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Alternar de navegação" aria-controls="site-navigation"
+                title="Alternar de navegação" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Baixe esta página"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Baixar arquivo fonte" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimir em PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Modo tela cheia"
+                    title="Modo tela cheia"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Conteúdo
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#area-de-trabalho-botao-iniciar-janelas-acessorios">
+   4.1. Área de trabalho, botão iniciar, janelas, acessórios
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conceito-de-arquivo-pastas-e-sistema-de-arquivos">
+   4.2. Conceito de arquivo, pastas e sistema de arquivos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#navegador-de-arquivos">
+   4.3. Navegador de Arquivos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#particoes-e-instalacao-de-sistemas-operacionais">
+   4.4. Partições e Instalação de Sistemas Operacionais
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
   <div class="section" id="sistemas-operacionais">
 <h1><span class="section-number">4. </span>Sistemas Operacionais<a class="headerlink" href="#sistemas-operacionais" title="Link permanente para este título">¶</a></h1>
 <div class="section" id="area-de-trabalho-botao-iniciar-janelas-acessorios">
@@ -196,138 +386,39 @@
 </div>
 
 
-           </div>
-           
-		   
-
-			<div style="width:100%" class="fb-comments" data-href="https://josedaniel.com.br" data-numposts="5" data-width="">
-			</div>
-
-
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="etapa5.html" class="btn btn-neutral float-right" title="5. Internet" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="etapa3.html" class="btn btn-neutral float-left" title="3. Software" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <p>
+              </div>
+              
         
-        &copy; Copyright 2020, José Daniel
-
-    </p>
-  </div> 
-
-
-</footer>
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="etapa3.html" title="previous page"><span class="section-number">3. </span>Software</a>
+    <a class='right-next' id="next-link" href="etapa5.html" title="next page"><span class="section-number">5. </span>Internet</a>
 
         </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          De José Daniel<br/>
+        
+            &copy; direito autoral 2020, José Daniel.<br/>
+          Última atualização em 23 mar. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
       </div>
-
-    </section>
-
-  </div>
-  
-
-  <script type="text/javascript">
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script>
-
-  
-  
-    
-    <!-- Theme Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-120806629-4', 'auto');
-    ga('send', 'pageview');
-    </script>
+    </div>
 
     
-   
-
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0&appId=914656275400102&autoLogAppEvents=1" nonce="E2ao2LhL"></script>
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
-<script>
-    if('serviceWorker' in navigator) {
-
-        /**
-         * Define if <link rel='next|prev|prefetch'> should
-         * be preloaded when accessing this page
-         */
-        const PREFETCH = true;
-
-        /**
-         * Define which link-rel's should be preloaded if enabled.
-         */
-        const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
-
-        /**
-         * prefetchCache
-         */
-        function prefetchCache() {
-            if(navigator.serviceWorker.controller) {
-
-                let links = document.querySelectorAll(
-                    PREFETCH_LINK_RELS.map((rel) => {
-                        return 'link[rel='+rel+']';
-                    }).join(',')
-                );
-
-                if(links.length > 0) {
-                    Array.from(links)
-                        .map((link) => {
-                            let href = link.getAttribute('href');
-                            navigator.serviceWorker.controller.postMessage({
-                                action : 'cache',
-                                url : href,
-                            });
-                        });
-                }
-
-
-            }
-        }
-
-        /**
-         * Register Service Worker
-         */
-        navigator.serviceWorker
-            .register('/sw.js', { scope: '/' })
-            .then(() => {
-                console.log('Service Worker Registered');
-            });
-
-        /**
-         * Wait if ServiceWorker is ready
-         */
-        navigator.serviceWorker
-            .ready
-            .then(() => {
-                if(PREFETCH) {
-                    prefetchCache();
-                }
-            });
-
-    }
-</script>
-
-</body>
+    
+  </body>
 </html>
